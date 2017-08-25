@@ -2,9 +2,6 @@ import React from 'react';
 import data from '../controllers/Data.json';
 
 class Tech extends React.Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         const development = data.technologies.filter((t) => {

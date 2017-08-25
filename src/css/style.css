@@ -105,6 +105,116 @@ a:hover {
     left: 50%;
     bottom: 40px;
     transform: translateX(-50%);
+    -webkit-animation:pulse 1s infinite ease-in alternate;
+    -moz-animation:pulse 1s infinite ease-in alternate;
+    animation:pulse 1s infinite ease-in alternate;
+}
+
+/************************
+        About
+************************/
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background: #333;
+    color: #fff;
+}
+
+.about-left {
+    width: 67%;
+    float: left;
+    margin-top: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.about-left p {
+    line-height: 26px;
+}
+
+.about-right {
+    width: 33%;
+    float: left;
+    margin-top: 50px;
+}
+
+.about-right img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+/************************
+        Contact
+************************/
+
+.contact {
+    width: 100%;
+    padding: 30px 0;
+    background: #EE5E63;
+    color: #fff;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+.contact-button {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.contact-button .contact:hover {
+    background: #334450;
+}
+
+.contact .contact-text {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact .contact-text i {
+    margin-right: 30px;
+}
+
+/************************
+        Work
+************************/
+
+.work {
+    width: 100%;
+    padding: 100px 0 0;
+    background: #fff;
+    color: #333;
+}
+
+.work h2 {
+    color: #333;
+    border-bottom: 3px solid #EE5E63;
+    margin-bottom: 30px;
+    display: inline;
+}
+
+.work .portfolio-container {
+    margin: 100px 0;
+}
+
+.work a {
+    color: #333;
+    display: block;
+    margin: 40px 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    /*border-bottom: 6px solid #333;*/
+}
+
+.work a:hover {
+    color: #EE5E63;
+    /*border-bottom: 6px solid #EE5E63;*/
 }
 
 /************************
@@ -119,7 +229,8 @@ a:hover {
 }
 
 .skills h2,
-.jobs h2 {
+.jobs h2,
+.about h2 {
     color: #fff;
     border-bottom: 3px solid #EE5E63;
     margin-bottom: 30px;
@@ -166,6 +277,13 @@ a:hover {
     margin: 10px 10px 0 0;
     text-align: center;
     line-height: 82px;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+.skills .development li:hover {
+    background: #EE5E63;
 }
 
 .skills .tools,
@@ -338,6 +456,17 @@ footer ul li a {
     margin: 0 20px;
 }
 
+/************************
+        Animations
+************************/
+
+@-moz-keyframes pulse { 100% { -moz-transform: scale(1.1,1.1) translateX(-50%); } }
+@-webkit-keyframes pulse { 100% { -webkit-transform: scale(1.1,1.1) translateX(-50%); } }
+@keyframes pulse { 100% { -webkit-transform: scale(1.1,1.1) translateX(-50%); transform:scale(1.1,1.1) translateX(-50%); } }
+
+/************************
+        Mobile
+************************/
 @media (max-width: 767px) {
     .container {
         margin-left: 20px;
@@ -388,5 +517,11 @@ footer ul li a {
     .intro-container {
         max-width: 90%;
         margin-left: 0 !important;
+    }
+
+    .about-left,
+    .about-right {
+        width: 100%;
+        float: none;
     }
 }
