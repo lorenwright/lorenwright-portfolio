@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/Logo.png';
 import data from '../controllers/Data.json';
 
 class Work extends React.Component {

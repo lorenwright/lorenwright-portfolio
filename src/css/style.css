@@ -29,10 +29,6 @@ header {
     display: none;
 }
 
-.logo {
-    width: 60px;
-}
-
 nav {
     float: right;
 }
@@ -50,7 +46,7 @@ nav ul li {
 a {
     color: #EE5E63;
     text-decoration: none;
-    transition: .5s ease all;
+    transition: .5s ease-in all;
 }
 
 a:hover {
@@ -65,6 +61,7 @@ a:hover {
     background: #334450;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 .intro-container {
@@ -75,6 +72,8 @@ a:hover {
     color: #fff;
     text-align: center;
     width: 100%;
+    opacity: 0;
+    animation: fadeIn 1s ease-in 8s forwards;
 }
 
 .intro h1 {
@@ -100,14 +99,341 @@ a:hover {
     margin: 30px auto;
 }
 
+/************************
+        Logo
+************************/
+
 .intro .logo {
-    position: absolute;
-    left: 50%;
-    bottom: 40px;
-    transform: translateX(-50%);
-    -webkit-animation:pulse 1s infinite ease-in alternate;
-    -moz-animation:pulse 1s infinite ease-in alternate;
-    animation:pulse 1s infinite ease-in alternate;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: visible;
+    animation: fadeOut 1s ease-in 8s forwards;
+}
+
+.st0{fill:#CD5155;}
+.st1{fill:#DE5A5D;}
+.st2{fill:#E75D60;}
+.st3{fill:#F16367;}
+.st4{fill:#ED5F63;}
+.st5{fill:#D75659;}
+.st6{fill:#FFFFFF;}
+
+.logo-container {
+    width: 100%;
+    height: 100%;
+    overflow: visible !important;
+    margin: auto;
+    animation: logoRotate 4s ease-in 1 forwards;
+}
+
+.logo g, .logo svg {
+    overflow: visible !important;
+}
+
+
+#logo-white {
+    animation: logoWhite 1s ease-in 4s 1 forwards;
+    transform-origin: center center;
+    opacity: 0;
+}
+
+#backgroundPolygons {
+    transform-origin: center center;
+}
+
+#backgroundPolygons polygon, #backgroundPolygons path {
+    transform-origin: center center;
+}
+
+
+
+/************************
+        Polygons
+************************/
+
+#poly1 {
+    animation: poly1 4s ease-in 1 forwards;
+}
+
+@keyframes poly1 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(-1000%, 0);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly2 {
+    animation: poly2 4s ease-in 1 forwards;
+}
+
+@keyframes poly2 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(0%, -1200%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly3 {
+    animation: poly3 4s ease-in 1 forwards;
+}
+
+@keyframes poly3 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(-300%, 0%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly4 {
+    animation: poly4 4s ease-in 1 forwards;
+}
+
+@keyframes poly4 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(-300%, 0%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly5 {
+    animation: poly5 4s ease-in 1 forwards;
+}
+
+@keyframes poly5 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(500%, 200%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly6 {
+    animation: poly6 4s ease-in 1 forwards;
+}
+
+@keyframes poly6 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(-1500%, 700%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly7 {
+    animation: poly7 4s ease-in 1 forwards;
+}
+
+@keyframes poly7 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(300%, 100%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly8 {
+    animation: poly8 4s ease-in 1 forwards;
+}
+
+@keyframes poly8 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(-200%, 100%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly9 {
+    animation: poly9 4s ease-in 1 forwards;
+}
+
+@keyframes poly9 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(900%, -1900%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly10 {
+    animation: poly10 4s ease-in 1 forwards;
+}
+
+@keyframes poly10 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(-2000%, -3600%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly11 {
+    animation: poly11 4s ease-in 1 forwards;
+}
+
+@keyframes poly11 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(0%, -800%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly12 {
+    animation: poly12 4s ease-in 1 forwards;
+}
+
+@keyframes poly12 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(300%, -200%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly13 {
+    animation: poly13 4s ease-in 1 forwards;
+}
+
+@keyframes poly13 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(400%, -500%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly14 {
+    animation: poly14 4s ease-in 1 forwards;
+}
+
+@keyframes poly14 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(2800%, 500%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+#poly15 {
+    animation: poly15 4s ease-in 1 forwards;
+}
+
+@keyframes poly15 {
+    0% {
+        transform: rotate(-180deg) scale(.1) translate(700%, 500%);
+    }
+    50% {
+        transform: scale(.1);
+    }
+    100% {
+        transform: rotate(0) scale(1) translate(0,0);
+    }
+}
+
+
+@keyframes logoRotate {
+    0% {
+        transform: rotate(-360deg) scale(1);
+        opacity: 0;
+    }
+    35% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(0deg) scale(.3);
+        opacity: 1
+    }
+}
+
+
+@keyframes logoWhite {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(.3) translateY(100%);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /************************
@@ -154,9 +480,9 @@ a:hover {
     padding: 30px 0;
     background: #EE5E63;
     color: #fff;
-    transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -webkit-transition: all .5s ease;
+    transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
 }
 
 .contact-button {
@@ -277,9 +603,9 @@ a:hover {
     margin: 10px 10px 0 0;
     text-align: center;
     line-height: 82px;
-    transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -webkit-transition: all .5s ease;
+    transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
 }
 
 .skills .development li:hover {
@@ -350,7 +676,7 @@ a:hover {
     border: 6px solid #fff;
     border-radius: 50%;
     background: #334450;
-    transition: .5s ease all;
+    transition: .5s ease-in all;
 }
 
 .job:nth-of-type(even) {

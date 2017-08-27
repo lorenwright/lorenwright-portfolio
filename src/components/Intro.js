@@ -1,18 +1,12 @@
 import React from 'react';
-import logo from '../images/Logo.png';
 import data from '../controllers/Data.json';
+import Logo from './Logo';
 
 class Intro extends React.Component {
 
     constructor(props) {
 
         super(props);
-
-        this.logoClick = this.logoClick.bind(this);
-    }
-
-    logoClick() {
-        window.location = '#about';
     }
 
     render() {
@@ -23,7 +17,8 @@ class Intro extends React.Component {
                     <h2>{data.position}</h2>
                     <p>{data.body}</p>
                 </div>
-                <img src={logo} className="logo" alt="logo" onClick={this.logoClick} />
+
+                <Logo ref="logo"/>
             </div>
         );
     }
