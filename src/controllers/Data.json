@@ -5,7 +5,7 @@
 
     "name": "Loren Wright",
 
-    "position": "Front End Web Engineer",
+    "position": "Software Engineer",
 
     "body": "I'm just a code slinger trying to make the Internet a better place.",
 
@@ -45,6 +45,14 @@
 
     "technologies": [
         {
+            "type": "development",
+            "tech": "React"
+        },
+        {
+            "type": "development",
+            "tech": "ES6"
+        },
+        {
             "type": "languages",
             "tech": "JavaScript"
         },
@@ -74,6 +82,10 @@
         },
         {
             "type": "development",
+            "tech": "Drupal"
+        },
+        {
+            "type": "development",
             "tech": "Kentico"
         },
         {
@@ -97,20 +109,12 @@
             "tech": "Shopify"
         },
         {
-            "type": "development",
-            "tech": "React"
-        },
-        {
             "type": "tools",
             "tech": "Git"
         },
         {
             "type": "languages",
-            "tech": "SQL"
-        },
-        {
-            "type": "development",
-            "tech": "ES6"
+            "tech": "Python"
         },
         {
             "type": "design",
@@ -135,24 +139,24 @@
 
     "work": [
         {
+            "link": "https://annual-report.thomsonreuters.com/",
+            "title": "Thomson Reuters 2017 Annual Reports"
+        },
+        {
+            "link": "https://www.nol-tec.com/",
+            "title": "Nol-Tec Systems"
+        },
+        {
             "link": "https://itunes.apple.com/us/app/blu-star-mobile/id964615541?mt=8",
-            "title": "Blu Star Mobile App"
+            "title": "Blu Star iOS & Android App"
+        },
+        {
+            "link": "http://morganplan.com/",
+            "title": "Morgan Planning Group"
         },
         {
             "link": "http://lorenwright.io/chi-tools/wave-5/blood-pressure/index.html",
             "title": "Control Blood Pressure Infographic"
-        },
-        {
-            "link": "http://lorenwright.io/chi-tools/wave-3/lcs-calculator/index.html",
-            "title": "Lung Cancer Screening Quiz"
-        },
-        {
-            "link": "http://lorenwright.io/chi-tools/wave-3/rate-pain/index.html",
-            "title": "Rate Your Pain Infographic"
-        },
-        {
-            "link": "http://nortekair.com",
-            "title": "Nortek Air Solutions"
         }
     ],
 
