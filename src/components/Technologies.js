@@ -62,4 +62,4 @@ class Tech extends React.Component {
     }
 }
 
-module.exports = Tech;
+export default Tech;

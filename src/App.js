@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './css/style.css';
 import './css/font-awesome.min.css';
-var Header = require('./components/Header');
-var Intro = require('./components/Intro');
-var Tech = require('./components/Technologies');
-var Work = require('./components/Work');
-var About = require('./components/About');
-var Contact = require('./components/Contact');
-var Experience = require('./components/Experience')
-var Footer = require('./components/Footer');
+import Header from './components/Header'
+import Intro from './components/Intro'
+import Tech from './components/Technologies'
+import Work from './components/Work'
+import About from './components/About'
+import Contact from './components/Contact'
+import Experience from './components/Experience'
+import Footer from './components/Footer'
 
 class App extends Component {
     render() {

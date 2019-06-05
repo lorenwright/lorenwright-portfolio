@@ -15,4 +15,4 @@ class Contact extends React.Component {
     }
 }
 
-module.exports = Contact
+export default Contact;

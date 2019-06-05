@@ -24,4 +24,4 @@ class Intro extends React.Component {
     }
 }
 
-module.exports = Intro;
+export default Intro;

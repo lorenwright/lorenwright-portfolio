@@ -11,10 +11,18 @@
 
     "experience": [
         {
+            "company": "Panda Game Manufacturing",
+            "website": "pandagm.com",
+            "start": "May 2018",
+            "end": "Present",
+            "logo": "panda.png",
+            "position": "Technology Manager"
+        },
+        {
             "company": "fjorge",
             "website": "fjorgedigital.com",
             "start": "June 2016",
-            "end": "Present",
+            "end": "May 2018",
             "logo": "fjorge.png",
             "position": "Front End Engineer"
         },
@@ -58,7 +66,15 @@
         },
         {
             "type": "languages",
-            "tech": "HTML"
+            "tech": "PHP"
+        },
+        {
+            "type": "languages",
+            "tech": "Python"
+        },
+        {
+            "type": "languages",
+            "tech": "SQL"
         },
         {
             "type": "languages",
@@ -70,7 +86,7 @@
         },
         {
             "type": "development",
-            "tech": "jQuery"
+            "tech": "Laravel"
         },
         {
             "type": "tools",
@@ -86,11 +102,7 @@
         },
         {
             "type": "development",
-            "tech": "Kentico"
-        },
-        {
-            "type": "languages",
-            "tech": "PHP"
+            "tech": "Vue"
         },
         {
             "type": "development",
@@ -111,10 +123,6 @@
         {
             "type": "tools",
             "tech": "Git"
-        },
-        {
-            "type": "languages",
-            "tech": "Python"
         },
         {
             "type": "design",
@@ -139,16 +147,16 @@
 
     "work": [
         {
-            "link": "https://annual-report.thomsonreuters.com/",
+            "link": "https://account.pandagm.com",
+            "title": "Panda GM Account Portal"
+        },
+        {
+            "link": "http://archive.annual-report.thomsonreuters.com/2017/trust.html",
             "title": "Thomson Reuters 2017 Annual Reports"
         },
         {
             "link": "https://www.nol-tec.com/",
             "title": "Nol-Tec Systems"
-        },
-        {
-            "link": "https://itunes.apple.com/us/app/blu-star-mobile/id964615541?mt=8",
-            "title": "Blu Star iOS & Android App"
         },
         {
             "link": "http://morganplan.com/",
@@ -161,7 +169,7 @@
     ],
 
     "about": {
-        "content": "I was very young when I started my web development career. My first website consisted of every GIF the early days of Internet had to offer. Since then, my passion for tinkering with the web has grown exponentially. I now spend my time building marketing sites and web applications for medium to large size companies. When I’m not making the Internet a better place, chances are I am probably playing some nerdy board game with my wife and 2 kids."
+        "content": "I was very young when I started my web development career. My first website consisted of every GIF the early days of Internet had to offer. Since then, my passion for tinkering with the web has grown exponentially. I now spend my time building marketing sites and web applications for medium to large size companies. When I’m not making the Internet a better place, chances are I am probably playing some nerdy board game with my wife and 3 kids."
     }
 
 }

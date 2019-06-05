@@ -25,4 +25,4 @@ class About extends React.Component {
     }
 }
 
-module.exports = About;
+export default About;

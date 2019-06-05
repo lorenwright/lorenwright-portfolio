@@ -27,4 +27,4 @@ class Experience extends React.Component {
     }
 };
 
-module.exports = Experience;
+export default Experience;
